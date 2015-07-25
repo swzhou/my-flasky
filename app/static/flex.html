@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Flex layout</title>
+    <style>
+        .container {
+            width: 100%;
+            height: 300px;
+            display: flex;
+            border: 1px solid green;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+        .item {
+            border: 1px solid #ffff00;
+            padding: 2px;
+            flex: 0 0 auto;
+        }
+        .item:nth-child(2) {
+
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="item">I'm here!</div>
+    <div class="item">I'm also here!</div>
+</div>
+</body>
+</html>
